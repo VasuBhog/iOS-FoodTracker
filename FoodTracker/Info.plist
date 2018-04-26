@@ -24,6 +24,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take a picture of your meal!</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Import your Meals for the Day!</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Something</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
