@@ -49,8 +49,11 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let mealListVC = segue.destination as! MealListViewController
-        mealListVC.mealDate = lblDate.text
+        if segue.destination is MealListViewController
+        {
+            let mealListVC = segue.destination as! MealListViewController
+            mealListVC.mealDate = lblDate.text
+        }
     }
     
     
